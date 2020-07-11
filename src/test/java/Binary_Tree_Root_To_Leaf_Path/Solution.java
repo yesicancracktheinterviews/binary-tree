@@ -38,6 +38,7 @@ public class Solution {
         path_stack.add(Integer.toString(root.val));
         TreeNode node;
         String path;
+
         while ( !node_stack.isEmpty() ) {
             node = node_stack.pollLast();
             path = path_stack.pollLast();
